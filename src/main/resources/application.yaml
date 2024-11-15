@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: distributed-chain-encryption
+key:
+  public:
+    path: 'C:\Workspace\auth\key-pairs\dce\public.pem'
+  private:
+    path: 'C:\Workspace\auth\key-pairs\dce\private.pem'
+cipher:
+  algorithm: "RSA"
+  mode: "ECB"
+  padding: "OAEPWithSHA1AndMGF1Padding"
